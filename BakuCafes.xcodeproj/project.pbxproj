@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F757903E2BC3FECB002FA58D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F757903D2BC3FECB002FA58D /* Model.swift */; };
+		F75790422BC403FE002FA58D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75790412BC403FE002FA58D /* LocationManager.swift */; };
+		F75839CE2BC32D78007C08AA /* BakuCafesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75839CD2BC32D78007C08AA /* BakuCafesApp.swift */; };
+		F75839D02BC32D78007C08AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75839CF2BC32D78007C08AA /* ContentView.swift */; };
+		F75839D22BC32D79007C08AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F75839D12BC32D79007C08AA /* Assets.xcassets */; };
+		F75839D52BC32D79007C08AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F75839D42BC32D79007C08AA /* Preview Assets.xcassets */; };
+		F75839DF2BC32D79007C08AA /* BakuCafesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75839DE2BC32D79007C08AA /* BakuCafesTests.swift */; };
+		F75839E92BC32D79007C08AA /* BakuCafesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75839E82BC32D79007C08AA /* BakuCafesUITests.swift */; };
+		F75839EB2BC32D79007C08AA /* BakuCafesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75839EA2BC32D79007C08AA /* BakuCafesUITestsLaunchTests.swift */; };
+		F7669FEC2BCDBE3200D8FC26 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7669FEB2BCDBE3200D8FC26 /* SplashScreen.swift */; };
+		F770AD802BCDDC82003BF883 /* OpenWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F770AD7F2BCDDC82003BF883 /* OpenWebView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F75839DB2BC32D79007C08AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F75839C22BC32D78007C08AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F75839C92BC32D78007C08AA;
+			remoteInfo = BakuCafes;
+		};
+		F75839E52BC32D79007C08AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F75839C22BC32D78007C08AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F75839C92BC32D78007C08AA;
+			remoteInfo = BakuCafes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F757903D2BC3FECB002FA58D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		F75790412BC403FE002FA58D /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		F75839CA2BC32D78007C08AA /* BakuCafes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BakuCafes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F75839CD2BC32D78007C08AA /* BakuCafesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BakuCafesApp.swift; sourceTree = "<group>"; };
+		F75839CF2BC32D78007C08AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F75839D12BC32D79007C08AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F75839D42BC32D79007C08AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F75839DA2BC32D79007C08AA /* BakuCafesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BakuCafesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F75839DE2BC32D79007C08AA /* BakuCafesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BakuCafesTests.swift; sourceTree = "<group>"; };
+		F75839E42BC32D79007C08AA /* BakuCafesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BakuCafesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F75839E82BC32D79007C08AA /* BakuCafesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BakuCafesUITests.swift; sourceTree = "<group>"; };
+		F75839EA2BC32D79007C08AA /* BakuCafesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BakuCafesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F7669FEB2BCDBE3200D8FC26 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		F770AD7F2BCDDC82003BF883 /* OpenWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWebView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F75839C72BC32D78007C08AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75839D72BC32D79007C08AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75839E12BC32D79007C08AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F75839C12BC32D78007C08AA = {
+			isa = PBXGroup;
+			children = (
+				F75839CC2BC32D78007C08AA /* BakuCafes */,
+				F75839DD2BC32D79007C08AA /* BakuCafesTests */,
+				F75839E72BC32D79007C08AA /* BakuCafesUITests */,
+				F75839CB2BC32D78007C08AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F75839CB2BC32D78007C08AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F75839CA2BC32D78007C08AA /* BakuCafes.app */,
+				F75839DA2BC32D79007C08AA /* BakuCafesTests.xctest */,
+				F75839E42BC32D79007C08AA /* BakuCafesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F75839CC2BC32D78007C08AA /* BakuCafes */ = {
+			isa = PBXGroup;
+			children = (
+				F75839CD2BC32D78007C08AA /* BakuCafesApp.swift */,
+				F7669FED2BCDC22C00D8FC26 /* Views */,
+				F7669FEF2BCDC24300D8FC26 /* Manager */,
+				F7669FEE2BCDC23B00D8FC26 /* Model */,
+				F75839D12BC32D79007C08AA /* Assets.xcassets */,
+				F75839D32BC32D79007C08AA /* Preview Content */,
+			);
+			path = BakuCafes;
+			sourceTree = "<group>";
+		};
+		F75839D32BC32D79007C08AA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F75839D42BC32D79007C08AA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F75839DD2BC32D79007C08AA /* BakuCafesTests */ = {
+			isa = PBXGroup;
+			children = (
+				F75839DE2BC32D79007C08AA /* BakuCafesTests.swift */,
+			);
+			path = BakuCafesTests;
+			sourceTree = "<group>";
+		};
+		F75839E72BC32D79007C08AA /* BakuCafesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F75839E82BC32D79007C08AA /* BakuCafesUITests.swift */,
+				F75839EA2BC32D79007C08AA /* BakuCafesUITestsLaunchTests.swift */,
+			);
+			path = BakuCafesUITests;
+			sourceTree = "<group>";
+		};
+		F7669FED2BCDC22C00D8FC26 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F7669FEB2BCDBE3200D8FC26 /* SplashScreen.swift */,
+				F770AD7F2BCDDC82003BF883 /* OpenWebView.swift */,
+				F75839CF2BC32D78007C08AA /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F7669FEE2BCDC23B00D8FC26 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F757903D2BC3FECB002FA58D /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F7669FEF2BCDC24300D8FC26 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				F75790412BC403FE002FA58D /* LocationManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F75839C92BC32D78007C08AA /* BakuCafes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F75839EE2BC32D79007C08AA /* Build configuration list for PBXNativeTarget "BakuCafes" */;
+			buildPhases = (
+				F75839C62BC32D78007C08AA /* Sources */,
+				F75839C72BC32D78007C08AA /* Frameworks */,
+				F75839C82BC32D78007C08AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BakuCafes;
+			productName = BakuCafes;
+			productReference = F75839CA2BC32D78007C08AA /* BakuCafes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F75839D92BC32D79007C08AA /* BakuCafesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F75839F12BC32D79007C08AA /* Build configuration list for PBXNativeTarget "BakuCafesTests" */;
+			buildPhases = (
+				F75839D62BC32D79007C08AA /* Sources */,
+				F75839D72BC32D79007C08AA /* Frameworks */,
+				F75839D82BC32D79007C08AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F75839DC2BC32D79007C08AA /* PBXTargetDependency */,
+			);
+			name = BakuCafesTests;
+			productName = BakuCafesTests;
+			productReference = F75839DA2BC32D79007C08AA /* BakuCafesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F75839E32BC32D79007C08AA /* BakuCafesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F75839F42BC32D79007C08AA /* Build configuration list for PBXNativeTarget "BakuCafesUITests" */;
+			buildPhases = (
+				F75839E02BC32D79007C08AA /* Sources */,
+				F75839E12BC32D79007C08AA /* Frameworks */,
+				F75839E22BC32D79007C08AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F75839E62BC32D79007C08AA /* PBXTargetDependency */,
+			);
+			name = BakuCafesUITests;
+			productName = BakuCafesUITests;
+			productReference = F75839E42BC32D79007C08AA /* BakuCafesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F75839C22BC32D78007C08AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					F75839C92BC32D78007C08AA = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					F75839D92BC32D79007C08AA = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F75839C92BC32D78007C08AA;
+					};
+					F75839E32BC32D79007C08AA = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F75839C92BC32D78007C08AA;
+					};
+				};
+			};
+			buildConfigurationList = F75839C52BC32D78007C08AA /* Build configuration list for PBXProject "BakuCafes" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F75839C12BC32D78007C08AA;
+			productRefGroup = F75839CB2BC32D78007C08AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F75839C92BC32D78007C08AA /* BakuCafes */,
+				F75839D92BC32D79007C08AA /* BakuCafesTests */,
+				F75839E32BC32D79007C08AA /* BakuCafesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F75839C82BC32D78007C08AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75839D52BC32D79007C08AA /* Preview Assets.xcassets in Resources */,
+				F75839D22BC32D79007C08AA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75839D82BC32D79007C08AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75839E22BC32D79007C08AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F75839C62BC32D78007C08AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7669FEC2BCDBE3200D8FC26 /* SplashScreen.swift in Sources */,
+				F770AD802BCDDC82003BF883 /* OpenWebView.swift in Sources */,
+				F757903E2BC3FECB002FA58D /* Model.swift in Sources */,
+				F75839D02BC32D78007C08AA /* ContentView.swift in Sources */,
+				F75790422BC403FE002FA58D /* LocationManager.swift in Sources */,
+				F75839CE2BC32D78007C08AA /* BakuCafesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75839D62BC32D79007C08AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75839DF2BC32D79007C08AA /* BakuCafesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75839E02BC32D79007C08AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75839EB2BC32D79007C08AA /* BakuCafesUITestsLaunchTests.swift in Sources */,
+				F75839E92BC32D79007C08AA /* BakuCafesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F75839DC2BC32D79007C08AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F75839C92BC32D78007C08AA /* BakuCafes */;
+			targetProxy = F75839DB2BC32D79007C08AA /* PBXContainerItemProxy */;
+		};
+		F75839E62BC32D79007C08AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F75839C92BC32D78007C08AA /* BakuCafes */;
+			targetProxy = F75839E52BC32D79007C08AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F75839EC2BC32D79007C08AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F75839ED2BC32D79007C08AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F75839EF2BC32D79007C08AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BakuCafes/Preview Content\"";
+				DEVELOPMENT_TEAM = 266MR8A727;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "$(MARKETING_VERSION)";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.discipline.BakuCafes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F75839F02BC32D79007C08AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BakuCafes/Preview Content\"";
+				DEVELOPMENT_TEAM = 266MR8A727;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "$(MARKETING_VERSION)";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.discipline.BakuCafes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F75839F22BC32D79007C08AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 266MR8A727;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.discipline.BakuCafesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BakuCafes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BakuCafes";
+			};
+			name = Debug;
+		};
+		F75839F32BC32D79007C08AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 266MR8A727;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.discipline.BakuCafesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BakuCafes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BakuCafes";
+			};
+			name = Release;
+		};
+		F75839F52BC32D79007C08AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 266MR8A727;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.discipline.BakuCafesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BakuCafes;
+			};
+			name = Debug;
+		};
+		F75839F62BC32D79007C08AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 266MR8A727;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.discipline.BakuCafesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BakuCafes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F75839C52BC32D78007C08AA /* Build configuration list for PBXProject "BakuCafes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F75839EC2BC32D79007C08AA /* Debug */,
+				F75839ED2BC32D79007C08AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F75839EE2BC32D79007C08AA /* Build configuration list for PBXNativeTarget "BakuCafes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F75839EF2BC32D79007C08AA /* Debug */,
+				F75839F02BC32D79007C08AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F75839F12BC32D79007C08AA /* Build configuration list for PBXNativeTarget "BakuCafesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F75839F22BC32D79007C08AA /* Debug */,
+				F75839F32BC32D79007C08AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F75839F42BC32D79007C08AA /* Build configuration list for PBXNativeTarget "BakuCafesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F75839F52BC32D79007C08AA /* Debug */,
+				F75839F62BC32D79007C08AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F75839C22BC32D78007C08AA /* Project object */;
+}

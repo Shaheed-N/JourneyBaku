@@ -1,0 +1,102 @@
+    [
+      {
+        "id": "1",
+        "name": "Anadolu Restaurant",
+        "location": {
+          "latitude": 40.37649795934559,
+          "longitude": 49.853726101995754
+        },
+        "website": "https://anadolu.az/index.php?route=common/home",
+        "address": "5 Alexander Pushkin, Baku 1010"
+      },
+      {
+        "id": "2",
+        "name": "Central Baku",
+        "location": {
+          "latitude": 40.3730299608514,
+          "longitude": 49.83873822954531
+        },
+        "website": "https://monyo.az/?r=centralbaku&l=2#monyo",
+        "address": "75 Nizami St, Baku 1005"
+      },
+      {
+        "id": "3",
+        "name": "LaQuzu",
+        "location": {
+          "latitude": 40.36858332584139,
+          "longitude": 49.83676412382824
+        },
+        "website": "https://cafecity.az/products/laquzu/laquzu-menyu/qelyanaltilar",
+        "address": "Küçəsi 41 Boyuk Qala, Bakı 1095"
+      },
+      {
+        "id": "4",
+        "name": "Çay Bağı 145",
+        "location": {
+          "latitude": 40.36685036657345,
+          "longitude": 49.83624913972813
+        },
+        "website": null,
+        "address": "3 Kichik Qala, Bakı 1000"
+      },
+      {
+        "id": "5",
+        "name": "Soul Kitchen",
+        "location": {
+          "latitude": 40.36891029429148,
+          "longitude": 49.83856656817859
+        },
+        "website": "https://soulkitchenfrombaku.weebly.com",
+        "address": "4 Mammadamin Rasul-Zadeh, Baku 0101"
+      },
+      {
+        "id": "6",
+        "name": "Salam Baku Restaurant",
+        "location": {
+          "latitude": 40.36900838451721,
+          "longitude": 49.835691240286366
+        },
+        "website": null,
+        "address": "Unvan, 126 Kichik Qala, Baku"
+      },
+      {
+        "id": "7",
+        "name": "East Town",
+        "location": {
+          "latitude": 40.373429622087365,
+          "longitude": 49.83996082563774
+        },
+        "website": null,
+        "address": "54 Nizami St, Baku"
+      },
+      {
+        "id": "8",
+        "name": "Nakhchivan Restaurant",
+        "location": {
+          "latitude": 40.3646909256693,
+          "longitude": 49.81907210681191
+        },
+        "website": "https://app.box.com/s/x45r2ituktnzintw57bhgg9evdel8wxd",
+        "address": "8a Parliament Ave, Baku"
+      },
+      {
+        "id": "9",
+        "name": "Vapiano Baku",
+        "location": {
+          "latitude": 40.37164346834868,
+          "longitude": 49.84119969091202
+        },
+        "website": "https://vapiano.com/",
+        "address": "6 Uzeyir Hajibeyov St, Baku 1000"
+      },
+      {
+        "id": "10",
+        "name": "Mari Vanna",
+        "location": {
+          "latitude": 40.372931876479036,
+          "longitude": 49.84938123428073
+        },
+        "website": "https://ginza.ru/baku/restaurant/marivanna",
+        "address": "93 Zərifə Əliyeva Küçəsi, Bakı"
+      }
+    ]

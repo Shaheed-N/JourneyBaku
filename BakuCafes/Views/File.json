@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "name": "Anadolu Restaurant",
+    "location": {
+      "latitude": 40.37649795934559,
+      "longitude": 49.853726101995754
+    },
+    "website": "https://anadolu.az/index.php?route=common/home",
+    "address": "5 Alexander Pushkin, Baku 1010"
+  },
+  {
+    "id": "2",
+    "name": "Central Baku",
+    "location": {
+      "latitude": 40.3730299608514,
+      "longitude": 49.83873822954531
+    },
+    "website": "https://monyo.az/?r=centralbaku&l=2#monyo",
+    "address": "75 Nizami St, Baku 1005"
+  },
+  // Add more cafes here...
+]
